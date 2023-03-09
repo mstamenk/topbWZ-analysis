@@ -41,5 +41,8 @@ topbWZ-latest # use autocomplete normally the command will be picked up by your 
 
 # Run the framework
 
-
+You need to replace the path by the path to the delphes sample in your repo (i couldnt access it myself because it's private), try to find some file with `delphe_event.root`
+```
+python plot_delphes.py # you need to install Xquartz on your mac to have X11 forwarding, and then launch the software and then connect to brux
+```
 
